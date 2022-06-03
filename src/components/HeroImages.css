@@ -1,0 +1,29 @@
+.hero-img {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.hero-img::before {
+    content: '';
+    background-image: url('../assets/unsplash-min.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-img .heading {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

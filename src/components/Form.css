@@ -1,0 +1,23 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: auto;
+  max-width: 600px;
+}
+
+form label {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #ffffff23;
+  outline: none;
+  border: 1px solid #454545;
+  font-family: 'Outfit', sans-serif;
+  color: #f4f4f4;
+}
