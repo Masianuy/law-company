@@ -20,19 +20,19 @@ const Navbar = () => {
 
   return (
     <div className={color ? 'header header-dark' : 'header'}>
-        <Link to='/'><p id='logo-company'>Company</p></Link>
+        <Link to='/'><p id='logo-company'>LAW Company</p></Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li>
-                <Link to='/'>Home</Link>
+                <Link to='/'>Головна</Link>
             </li>
             <li>
-                <Link to='/pricing'>Pricing</Link>
+                <Link to='/pricing'>Практика</Link>
             </li>
             <li>
-                <Link to='/training'>Training</Link>
+                <Link to='/training'>Вартість</Link>
             </li>
             <li>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/contact'>Контакти</Link>
             </li>
         </ul>
         <div className='hamburger' onClick={handleClick}>

@@ -3,17 +3,18 @@ import './TrainingSectin.css';
 
 import {Link} from 'react-router-dom';
 
-import Foto from '../assets/pexels-spencer-davis-4388292.jpg';
+import Foto from '../assets/law-firm.jpg';
 import Fabio from '../assets/fabio.jpg'
 
 const TrainingSectin = () => {
   return (
     <div className='training'>
       <div className='training-left'>
-        <h1>Training</h1>
-        <p>Follow along and see how I built this space travel website in React JS. We will be using a couple react packages such as "React Icons" and "React Router Dom V6"</p>
+        <h1>Вартість адвокатських послуг</h1>
+        <p>На формування вартості послуг, перш за все, впливає обсяг роботи та час, який необхідно витратити на вирішення проблеми. Також, варто пам’ятати, що існують типові і нетипові ситуації, які потребують більш ретельного вивчення матеріалів справи, збору доказів, аналізу судової практики, іншої правової роботи. Окрім цього, як правило, але не завжди, виникають супутні витрати: сплата судового збору, оплата за висновки експертів, дорожні витрати, поштові послуги тощо.</p>
+        <p>А тому вартість послуг завжди вираховується індивідуально.</p>
         <Link to='/contact'>
-          <button className='btn'>Contact</button>
+          <button className='btn'>Контакти</button>
         </Link>
       </div>
       <div className='training-right'>

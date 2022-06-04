@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Video.css';
-import spaseVideo from '../assets/Pexels Videos 2109902.mp4';
+import spaseVideo from '../assets/pexels-pavel-danilyuk-8061570.mp4';
 
 const Video = () => {
   return (
@@ -10,11 +10,11 @@ const Video = () => {
             <source src={spaseVideo} type='video/mp4' />
         </video>
         <div className='content'>
-            <h1>Travel. World.</h1>
-            <p>CityPASS Destinations</p>
+            <h1>Юридичні послуги за сучасними стандартами</h1>
+            <p>Конфіденційність. Індивідуальність. Оперативність.</p>
             <div>
-                <Link to='/training' className='btn'>Training</Link>
-                <Link to='/contact' className='btn btn-light'>Contact</Link>
+                <Link to='/training' className='btn'>Вартість</Link>
+                <Link to='/contact' className='btn btn-light'>Контакти</Link>
             </div>
         </div>
     </div>

@@ -16,6 +16,9 @@
     text-align: center;
     border: 1px solid #ffffff9a;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card:hover {
@@ -23,18 +26,26 @@
 }
 
 .card-title {
-    font-size: 1.4rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 400;
     color: #ffffff;
-}
-
-.btc {
-    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .card p {
-    font-weight: 400;
-    padding: 0.5rem 0;
+    font-weight: 300;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    text-align: left;
+    position: relative;
+}
+
+.card p::before {
+    position: absolute;
+    content: '-';
+    left: 0;
+    top: 0.5rem;
+    color: #ffffff;
 }
 
 .card .btn {
@@ -46,7 +57,7 @@
 
 .card .bar {
     border-bottom: 1px solid #eeeeee;
-    width: 10%;
+    width: 17%;
     margin: 1.5rem auto;
     display: block;
 }

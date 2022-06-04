@@ -1,6 +1,6 @@
 .training {
   width: 100%;
-  margin: 3rem 0;
+  margin: 5rem 0 3rem 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   height: 100%;
@@ -33,7 +33,6 @@
 .img-container .top {
   grid-column: 1 / span 8;
   grid-row: 1;
-  padding-top: 20%;
   z-index: 6;
 }
 
@@ -41,7 +40,7 @@
   grid-column: 3 / -1;
   grid-row: 2;
   z-index: 5;
-  margin-top: -50%;
+  margin-top: -63%;
 }
 
 .foto1 {

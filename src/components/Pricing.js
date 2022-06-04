@@ -7,23 +7,23 @@ const Pricing = () => {
     function Card(props) {
         return (
             <div className='card'>
-                <h3 className='card-title'>- {props.title} -</h3>
+                <h3 className='card-title'>{props.title}</h3>
                 <span className='bar'></span>
-                <p className='btc'>{props.subtitle}</p>
-                <p>- {props.days} days-</p>
-                <p>- {props.views} -</p>
-                <p>- {props.features} -</p>
-                <p>- {props.private} -</p>
-                <Link to='/contact' className='btn'>Book</Link>
+                <p>{props.one}</p>
+                <p>{props.two}</p>
+                <p>{props.three}</p>
+                <p>{props.four}</p>
+                <p>{props.five}</p>
+                <Link to='/contact' className='btn'>Запитати</Link>
             </div>
         )
     }
     return (
         <div className='pricing'>
             <div className='card-container'>
-                <Card title='Hiking' subtitle='Traveling' days='3' views='Austria' features='Mountains, Viena' private='Private'/>
-                <Card title='Riding' subtitle='Traveling' days='10' views='France' features='Paris, Effele Tower' private='Private'/>
-                <Card title='Climbing' subtitle='Traveling' days='9' views='England' features='Belfast, Ascot, London, Greenvich' private='Private'/>
+                <Card title='Цивільні справи' one='Сімейні спори' two='Земельні спори' three='Трудові спори' four='Спадкові спори' five='Кредитні спори'/>
+                <Card title='Захист бізнесу' one='Своєчасний та комплексний захист бізнесу' two='Зняття арешту з майна' three='Супровід при проведенні слідчих дій (обшук, огляд, допит)' four='Повернення вилучених речей під час обшуку та огляду' five='Оформлення договорів конфіденційності з працівниками'/>
+                <Card title='Кримінальне право та процес' one='Захист підозрюваного' two='Захист обвинуваченого' three='Робота зі свідками та збір доказів' four='Представництво у правоохоронних органах' five='Супровід при проведенні слідчих дій (обшук, допит)'/>
             </div>
             
         </div>

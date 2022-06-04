@@ -8,7 +8,7 @@ const Training = () => {
   return (
     <>
         <Navbar />
-        <HeroImages heading='TRAINING' text='Pre-Flight & In-Flight Training'/>
+        <HeroImages heading='ВАРТІСТЬ' text='Адвокат - це не розкіш, а засіб вашого захисту.'/>
         <TrainingSectin />
         <Footer />
     </>

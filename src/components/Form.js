@@ -5,15 +5,15 @@ const Form = () => {
   return (
     <div className='form'>
       <form>
-        <label>Your name</label>
+        <label>Ваше ім'я *</label>
         <input type='text' />
         <label>Email</label>
         <input type='email' />
-        <label>Phone</label>
+        <label>Телефон *</label>
         <input type='phone' />
-        <label>Details</label>
-        <textarea rows='6' placeholder='Type a short message here' />
-        <button className='btn'>Submit</button>
+        <label>Консультація</label>
+        <textarea rows='6' placeholder='Задайте Ваше питання' />
+        <button className='btn'>Отримати Консультацію</button>
       </form>
     </div>
   )
