@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7269f443877cde37e2d4",
-    "url": "/law-company/static/css/main.43024988.chunk.css"
+    "revision": "5c8752c31eaff87a6e9e",
+    "url": "/law-company/static/css/main.e2fb462f.chunk.css"
   },
   {
-    "revision": "7269f443877cde37e2d4",
-    "url": "/law-company/static/js/main.7269f443.chunk.js"
+    "revision": "5c8752c31eaff87a6e9e",
+    "url": "/law-company/static/js/main.5c8752c3.chunk.js"
   },
   {
     "revision": "b3e238e931e64bf51c49",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/law-company/static/media/unsplash-min.cd043d95.jpg"
   },
   {
-    "revision": "462fee0d02a8be97af2af0a549c1a13b",
+    "revision": "01ce7745a8ac031a69e143c84f48ad62",
     "url": "/law-company/index.html"
   }
 ];
