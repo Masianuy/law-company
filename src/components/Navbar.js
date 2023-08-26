@@ -28,10 +28,10 @@ const Navbar = () => {
           <Link to='/'>Головна</Link>
         </li>
         <li>
-          <Link to='/pricing'>Практика</Link>
+          <Link to='/training'>Практика</Link>
         </li>
         <li>
-          <Link to='/training'>Вартість</Link>
+          <Link to='/pricing'>Вартість</Link>
         </li>
         <li>
           <Link to='/contact'>Контакти</Link>
@@ -39,9 +39,9 @@ const Navbar = () => {
       </ul>
       <div className='hamburger' onClick={handleClick}>
         {click ? (
-          <FaTimes size={20} style={{ color: '#ffffff' }} />
+          <FaTimes size={23} style={{ color: '#ffffff' }} />
         ) : (
-          <FaBars size={20} style={{ color: '#ffffff' }} />
+          <FaBars size={23} style={{ color: '#ffffff' }} />
         )}
       </div>
     </div>

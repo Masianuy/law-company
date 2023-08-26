@@ -20,6 +20,11 @@
   padding: 1rem;
 }
 
+.footer .left p {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 0.05em;
+}
+
 .footer .right {
   height: 100%;
   max-width: 100%;
@@ -29,13 +34,14 @@
 }
 
 .footer h4 {
-  font-size: 1.4rem;
   padding: 0 0 1rem;
 }
 
 .footer p {
   font-size: 1.2rem;
   padding: 0.5rem 0;
+  text-justify: inter-word;
+  line-height: 1.2;
 }
 
 .footer .location {

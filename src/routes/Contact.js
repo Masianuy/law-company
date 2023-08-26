@@ -8,7 +8,7 @@ function Contact () {
   return (
     <div>
       <Navbar />
-      <HeroImages heading='КОНТАКТИ' text='Зв’язатися з нами.' />
+      <HeroImages heading='КОНТАКТИ' text='Зв’язатись з нами.' />
       <Form />
       <Footer />
     </div>

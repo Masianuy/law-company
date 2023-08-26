@@ -27,3 +27,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.heading_subtitle {
+  margin-top: 2rem;
+  padding: 0 1rem;
+  text-align: center;
+}

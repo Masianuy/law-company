@@ -9,6 +9,7 @@ form {
 form label {
   margin-bottom: 0.5rem;
   color: #ffffff;
+  letter-spacing: 0.05em;
 }
 
 input,

@@ -51,11 +51,11 @@ const Footer = () => {
           </p>
           <div className='social'>
             <FaFacebook
-              size={20}
+              size={23}
               style={{ color: '#ffffff', marginRight: '1rem' }}
             />
             <FaLinkedin
-              size={20}
+              size={24}
               style={{ color: '#ffffff', marginRight: '1rem' }}
             />
           </div>

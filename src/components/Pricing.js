@@ -6,7 +6,7 @@ const Pricing = () => {
   function Card (props) {
     return (
       <div className='card'>
-        <h3 className='card-title'>{props.title}</h3>
+        <h4 className='card-title'>{props.title}</h4>
         <span className='bar'></span>
         <p>{props.one}</p>
         <p>{props.two}</p>
@@ -39,7 +39,7 @@ const Pricing = () => {
           five='Оформлення договорів конфіденційності з працівниками'
         />
         <Card
-          title='Кримінальне право та процес'
+          title='Кримінальне право'
           one='Захист підозрюваного'
           two='Захист обвинуваченого'
           three='Робота зі свідками та збір доказів'

@@ -10,7 +10,7 @@ const TrainingSectin = () => {
   return (
     <div className='training'>
       <div className='training-left'>
-        <h1>Вартість адвокатських послуг</h1>
+        <h2>Вартість адвокатських послуг</h2>
         <p>
           На формування вартості послуг, перш за все, впливає обсяг роботи та
           час, який необхідно витратити на вирішення проблеми. Також, варто
@@ -22,7 +22,7 @@ const TrainingSectin = () => {
         </p>
         <p>А тому вартість послуг завжди вираховується індивідуально.</p>
         <Link to='/contact'>
-          <button className='btn'>Контакти</button>
+          <button className='btn training-btn'>Контакти</button>
         </Link>
       </div>
       <div className='training-right'>
