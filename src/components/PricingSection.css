@@ -1,71 +1,71 @@
 .pricing {
-    width: 100%;
-    padding: 6rem 1rem;
-    background-color: #020202;
+  width: 100%;
+  padding: 6rem 1rem;
+  background-color: #020202;
 }
 
 .card-container {
-    max-width: 1140px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    margin: 0 auto;
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 0 auto;
 }
 
 .card {
-    text-align: center;
-    border: 1px solid #ffffff9a;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  text-align: center;
+  border: 1px solid #ffffff9a;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
-    background-color: rgb(22, 31, 55);
+  background-color: rgb(22, 31, 55);
 }
 
 .card-title {
-    font-size: 1.3rem;
-    font-weight: 400;
-    color: #ffffff;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .card p {
-    font-weight: 300;
-    padding: 0.5rem 0 0.5rem 1.5rem;
-    text-align: left;
-    position: relative;
+  font-weight: 300;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  text-align: left;
+  position: relative;
 }
 
 .card p::before {
-    position: absolute;
-    content: '-';
-    left: 0;
-    top: 0.5rem;
-    color: #ffffff;
+  position: absolute;
+  content: '-';
+  left: 0;
+  top: 0.5rem;
+  color: #ffffff;
 }
 
 .card .btn {
-    margin: 2rem auto;
-    display: block;
-    width: 80%;
-    color: #ffffff;
+  margin: 2rem auto;
+  display: block;
+  width: 80%;
+  color: #ffffff;
 }
 
 .card .bar {
-    border-bottom: 1px solid #eeeeee;
-    width: 17%;
-    margin: 1.5rem auto;
-    display: block;
+  border-bottom: 1px solid #eeeeee;
+  width: 17%;
+  margin: 1.5rem auto;
+  display: block;
 }
 
 @media screen and (max-width: 640px) {
-    .card-container {
-        grid-template-columns: 1fr;
-        margin: 0 auto;
-        max-width: 90%;
-    }
+  .card-container {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 90%;
+  }
 }

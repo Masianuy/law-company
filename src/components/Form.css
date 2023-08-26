@@ -11,7 +11,8 @@ form label {
   color: #ffffff;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 1rem;
   padding: 10px;
   font-size: 1.2rem;
