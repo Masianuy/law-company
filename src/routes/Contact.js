@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import HeroImages from '../components/HeroImages'
-import Form from '../components/Form'
+import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 
 function Contact () {
@@ -9,7 +9,7 @@ function Contact () {
     <div>
       <Navbar />
       <HeroImages heading='КОНТАКТИ' text='Зв’язатись з нами.' />
-      <Form />
+      <ContactForm />
       <Footer />
     </div>
   )

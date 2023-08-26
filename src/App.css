@@ -84,6 +84,12 @@ a {
   p {
     font-size: 1.15rem;
   }
+  input::placeholder {
+    font-size: 1.15rem;
+  }
+  textarea::placeholder {
+    font-size: 1.15rem;
+  }
 }
 
 
