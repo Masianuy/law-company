@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Video.css'
-import spaseVideo from './../../assets/pexels-pavel-danilyuk-8061570.mp4'
+import spaseVideo from './../../assets/lawyer.mp4'
 
 const Video = () => {
   return (
