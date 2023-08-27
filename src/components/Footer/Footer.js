@@ -7,8 +7,10 @@ import {
   FaPhone,
   FaSearchLocation
 } from 'react-icons/fa'
+import {company} from './../../db.json'
 
 const Footer = () => {
+  const {phone, email, location: {address, country, city}} = company;
   return (
     <div className='footer'>
       <div className='footer-container'>
@@ -19,8 +21,8 @@ const Footer = () => {
               style={{ color: '#ffffff', marginRight: '2rem' }}
             />
             <div>
-              <p>вул. Соборна, 17</p>
-              <p>Україна, Київ</p>
+              <p>{address}</p>
+              <p>{country}, {city}</p>
             </div>
           </div>
           <div className='phone'>
@@ -29,7 +31,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: '#ffffff', marginRight: '2rem' }}
               />
-              +38 (096) 111 11 89
+              {phone}
             </p>
           </div>
           <div className='email'>
@@ -38,7 +40,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: '#ffffff', marginRight: '2rem' }}
               />
-              CompanyName@gmail.com
+              {email}
             </p>
           </div>
         </div>
@@ -50,14 +52,18 @@ const Footer = () => {
             випадок.
           </p>
           <div className='social'>
-            <FaFacebook
-              size={23}
-              style={{ color: '#ffffff', marginRight: '1rem' }}
-            />
-            <FaLinkedin
-              size={24}
-              style={{ color: '#ffffff', marginRight: '1rem' }}
-            />
+            <a href='https://www.facebook.com/'>
+              <FaFacebook
+                size={23}
+                style={{ color: '#ffffff', marginRight: '1rem' }}
+              />
+            </a>
+            <a href='https://www.linkedin.com/'>
+              <FaLinkedin
+                size={24}
+                style={{ color: '#ffffff', marginRight: '1rem' }}
+              />
+            </a>
           </div>
         </div>
       </div>

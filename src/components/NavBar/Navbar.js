@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaBars, FaTimes } from 'react-icons/fa'
+import { company } from './../../db.json'
 import './Navbar.css'
 
 const Navbar = () => {
+  const {name, navigation: {home, training, pricing, contact}} = company
   const [click, setClick] = useState(false)
   const handleClick = () => setClick(!click)
 
@@ -21,20 +23,20 @@ const Navbar = () => {
   return (
     <div className={color ? 'header header-dark' : 'header'}>
       <Link to='/'>
-        <p id='logo-company'>LAW Company</p>
+        <p id='logo-company'>{name}</p>
       </Link>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <Link to='/'>Головна</Link>
+          <Link to='/'>{home}</Link>
         </li>
         <li>
-          <Link to='/training'>Практика</Link>
+          <Link to='/training'>{training}</Link>
         </li>
         <li>
-          <Link to='/pricing'>Вартість</Link>
+          <Link to='/pricing'>{pricing}</Link>
         </li>
         <li>
-          <Link to='/contact'>Контакти</Link>
+          <Link to='/contact'>{contact}</Link>
         </li>
       </ul>
       <div className='hamburger' onClick={handleClick}>

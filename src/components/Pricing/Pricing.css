@@ -1,37 +1,38 @@
-.training {
-  width: 100%;
-  margin: 5rem 0 3rem 0;
+.pricing {
+  max-width: 1440px;
+  margin: 5rem auto 3rem auto;
   display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 800px));
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  grid-auto-rows: auto;
   height: 100%;
 }
 
-.training-left {
+.pricing-left {
   padding: 1rem 4rem;
 }
 
-.training-left h2 {
+.pricing-left h2 {
   margin-bottom: 2rem;
 }
 
-.training-left p {
+.pricing-left p {
   margin: 1.2rem 0;
   line-height: 1.3;
 }
 
-.training-btn {
+.pricing-btn {
   margin-top: 2rem;
 }
 
-.training-right {
+.pricing-right {
   width: 100%;
   text-align: center;
 }
 
-.training-right .img-container {
+.pricing-right .img-container {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   position: relative;
   align-items: flex-start;
   justify-items: center;
@@ -45,9 +46,9 @@
 
 .img-container .bottom {
   grid-column: 3 / -1;
-  grid-row: 2;
+  grid-row: 1;
   z-index: 5;
-  margin-top: -63%;
+  margin-top: 11%;
 }
 
 .foto1 {
@@ -61,27 +62,27 @@
 }
 
 @media screen and (max-width: 1140px) {
-  .training {
+  .pricing {
     grid-template-columns: 1fr;
   }
 
-  .training-left {
+  .pricing-left {
     margin-bottom: 3rem;
   }
 
-  .training-right img {
+  .pricing-right img {
     max-width: 80%;
   }
 }
 
 @media screen and (max-width: 678px) {
-  .training-left {
+  .pricing-left {
     padding: 1rem 2rem;
   }
 }
 
 @media screen and (max-width: 458px) {
-  .training-left {
+  .pricing-left {
     padding: 1rem 1.3rem;
   }
 }

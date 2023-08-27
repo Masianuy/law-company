@@ -1,6 +1,6 @@
 import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
-import { contactShema } from '../validation/contactShemas'
+import { contactShema } from './../../validation/contactShemas'
 import './ContactForm.css'
 
 const ContactForm = () => {

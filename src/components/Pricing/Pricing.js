@@ -1,15 +1,15 @@
 import React from 'react'
-import './TrainingSectin.css'
+import './Pricing.css'
 
 import { Link } from 'react-router-dom'
 
-import Foto from '../assets/law-firm.jpg'
-import Fabio from '../assets/fabio.jpg'
+import Foto from './../../assets/law-firm.jpg'
+import Fabio from './../../assets/fabio.jpg'
 
-const TrainingSectin = () => {
+const Pricing = () => {
   return (
-    <div className='training'>
-      <div className='training-left'>
+    <div className='pricing'>
+      <div className='pricing-left'>
         <h2>Вартість адвокатських послуг</h2>
         <p>
           На формування вартості послуг, перш за все, впливає обсяг роботи та
@@ -22,10 +22,10 @@ const TrainingSectin = () => {
         </p>
         <p>А тому вартість послуг завжди вираховується індивідуально.</p>
         <Link to='/contact'>
-          <button className='btn training-btn'>Контакти</button>
+          <button className='btn pricing-btn'>Контакти</button>
         </Link>
       </div>
-      <div className='training-right'>
+      <div className='pricing-right'>
         <div className='img-container'>
           <div className='img-stack top'>
             <img src={Fabio} alt='fabio' className='foto1' />
@@ -39,4 +39,4 @@ const TrainingSectin = () => {
   )
 }
 
-export default TrainingSectin
+export default Pricing

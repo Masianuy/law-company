@@ -7,7 +7,7 @@
 
 .hero-img::before {
   content: '';
-  background-image: url('../assets/unsplash-min.jpg');
+  background-image: url('./../../assets/unsplash-min.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -31,5 +31,6 @@
 .heading_subtitle {
   margin-top: 2rem;
   padding: 0 1rem;
+  font-size: 1.4rem;
   text-align: center;
 }
