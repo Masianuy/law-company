@@ -9,6 +9,7 @@ const Video = () => {
       <video autoPlay loop muted id='video'>
         <source src={spaseVideo} type='video/mp4' />
       </video>
+      <div className='main-img'></div>
       <div className='content'>
         <h1>Юридичні послуги за сучасними стандартами</h1>
         <p>Конфіденційність. Індивідуальність. Оперативність.</p>
